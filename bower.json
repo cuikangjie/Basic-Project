@@ -1,0 +1,16 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "private": true,
+  "authors": [
+    "cuikangjie <cuikangjie_90h@126.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+
+  "dependencies": {
+    "jquery":""
+  }
+}
+
+
