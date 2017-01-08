@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "authors": [
     "cuikangjie <cuikangjie_90h@126.com>"
@@ -9,8 +9,7 @@
   "homepage": "",
 
   "dependencies": {
-    "jquery":""
+    "jquery":"",
+    "vue":""
   }
 }
-
-

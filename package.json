@@ -4,9 +4,11 @@
   "devDependencies": {
     "bower": "^1.7.7",
     "http-server": "^0.9.0",
-    
+    "del":"",
+
     "gulp": "^3.9.0",
     "gulp-rename":"",
+    "gulp-file-copy":"",
     "gulp-htmlmin":"",
     "gulp-imagemin":"",
     "gulp-clean-css":"",
@@ -15,14 +17,19 @@
     "gulp-clean":"",
     "gulp-concat":"",
     "gulp-plumber":"",
+    "jshint":"",
     "gulp-jshint":"",
     "gulp-babel":"",
-    "babel-preset-es2015":""
+    "babel-preset-es2015":"",
+    "gulp-run-sequence":"",
+    "through2":"",
+    "gulp-html-replace":"",
+    "gulp-connect":""
   },
   "scripts": {
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 3030 -c-1 ./app"
+  "start": "gulp cleanDist &&  gulp run  && gulp server"
   }
 }
